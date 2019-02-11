@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixinsConsole", "MixinsCons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfConsole", "WpfConsole\WpfConsole.csproj", "{AC272B06-C262-4819-99A7-4183E9EEAAAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixins.Tests", "Mixins.Tests\Mixins.Tests.csproj", "{A11444C7-165C-4627-9716-479B4CEBCFA5}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E01153E-A0BA-4488-B312-6DBD18E9695B}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
@@ -19,6 +17,8 @@ EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Mixins.Shared", "Mixins\Mixins.Shared.shproj", "{B7117B63-DBDF-48DC-8643-2F1A7A86717B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mixins.NetStandard2.0", "Mixins.NetStandard2.0\Mixins.NetStandard2.0.csproj", "{C9144167-8FB4-48FD-89D0-9799178C37C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixins.Tests", "Mixins.Tests\Mixins.Tests.csproj", "{F996581B-6229-4575-96E5-08D462AD7EB8}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -38,10 +38,6 @@ Global
 		{AC272B06-C262-4819-99A7-4183E9EEAAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC272B06-C262-4819-99A7-4183E9EEAAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC272B06-C262-4819-99A7-4183E9EEAAAA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A11444C7-165C-4627-9716-479B4CEBCFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A11444C7-165C-4627-9716-479B4CEBCFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A11444C7-165C-4627-9716-479B4CEBCFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A11444C7-165C-4627-9716-479B4CEBCFA5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2EB63D89-45E6-48A1-B61E-9C3B4D095DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2EB63D89-45E6-48A1-B61E-9C3B4D095DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EB63D89-45E6-48A1-B61E-9C3B4D095DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -50,6 +46,10 @@ Global
 		{C9144167-8FB4-48FD-89D0-9799178C37C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9144167-8FB4-48FD-89D0-9799178C37C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9144167-8FB4-48FD-89D0-9799178C37C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F996581B-6229-4575-96E5-08D462AD7EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F996581B-6229-4575-96E5-08D462AD7EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F996581B-6229-4575-96E5-08D462AD7EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F996581B-6229-4575-96E5-08D462AD7EB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Mixins.nuspec" />
+    <None Include="Readme.md" />
   </ItemGroup>
   <Import Project="..\Mixins\Mixins.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

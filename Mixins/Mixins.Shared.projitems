@@ -24,7 +24,4 @@
     <Compile Include="$(MSBuildThisFileDirectory)ReadOnly.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SystemFields.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)Readme.md" />
-  </ItemGroup>
 </Project>
